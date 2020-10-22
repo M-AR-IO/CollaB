@@ -1,2 +1,2 @@
 # CollaB
-Praktik kolaborasi
+Tugas membuat web statis bersama kolaborator
