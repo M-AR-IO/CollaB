@@ -8,7 +8,10 @@ html{box-sizing: border-box;}
 a{text-decoration: none;}
 a:hover{text-decoration: underline;}
 
-#top-bar{width: 100%; height: auto; padding: 8px; overflow: auto;}
+body{padding: 0; margin: 0;}
+#top-bar{width: 100%; height: 70px; padding: 8px; overflow: auto; background-image: linear-gradient(#00000088, #00000000);}
+#noHome{padding-top: 70px}
+#noHome #top-bar{position: fixed; top: 0; left: 0;}
 .konten-top-bar{display: inline-block; margin-left: 8px; cursor: pointer; height: 100%;}
 .profil, .profil img{height: 40px; width: 40px; border-radius: 50%;}
 .profil{overflow: hidden;}
@@ -21,9 +24,9 @@ a:hover{text-decoration: underline;}
 #menu{width: 75%; height: 75%;}
 .konten-box-konten{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 8px;}
 .konten-box-menu{position: absolute; left: 50%; transform: translate(-50%, 0); padding: 8px;}
-#menu-item{width: 100%; height: 100%; overflow: auto;}
+#menu-item{width: 100%; height: 100%; overflow: auto; padding: 10px}
 .konten-menu{width: 20%; height: 50%; float: left;}
-.kotak-menu{width: 100%; height: 100%; overflow: hidden; position: relative; cursor: pointer;}
+.kotak-menu{width: 100%; height: 100%; overflow: hidden; position: relative; cursor: pointer; box-shadow: 3px 0px 5px black;}
 .kotak-menu .icon{overflow: hidden; position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
 .icon img{object-fit: cover; height: 100%; width: 100%;}
 .kotak-menu .menu-title{
@@ -47,16 +50,38 @@ a:hover{text-decoration: underline;}
 .zoom:hover{transform: scale(1.5);}
 
 .gray{background-color: #777; color: #000;}
-.bgSaitama{
-	background-image: url("img/bg-hd.jpg");
+.bgImg{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
 	background-attachment: fixed;
 	background-blend-mode: screen;
 }
+.Saitama{background-image: url("img/bg-hd.jpg");}
+.opm{background-image: url("img/opm cover.jpg");}
 
 .center{text-align: center;}
 .padding20{padding-top: 20px; padding-bottom: 20px;}
 .tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
 .fullScreen{position: fixed; top: 0; left: 0; width: 100%; height: 100%;}
+.garis{border: 1px solid #000};
+
+#isi{width: 100%; height: auto; padding: 20px;}
+.isi-kotak{
+	width: 75%; 
+	margin-right: auto; 
+	margin-left: auto; 
+	background-color: #fff;
+	box-shadow: 5px 5px 10px black;
+	margin-top: 20px;
+}
+.img-cover, .img-cover img{width: 100%;}
+.img-cover img{object-fit: cover;}
+.isi-konten{width: 100%; padding: 20px;}
+.isi-judul{text-align: center;}
+.isi-judul h1{font-size: 32pt}
+.isi-paragraf p{text-indent: 20pt; font-size: 16pt;}
+
+#isi-konten-lain{padding: 20px}
+#isi-konten-lain .konten-lain{width: 100%; padding: 10px 0 10px 0;}
+.konten-lain .konten-lain-isi{display: inline-block; width: 250px; height: 150px; padding: 20px;}
