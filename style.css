@@ -41,6 +41,7 @@ body{padding: 0; margin: 0;}
 	padding: 5px;
 	text-align: center;
 	transition: 0.6s;
+	word-wrap: break-word;
 }
 .kotak-menu:hover > .menu-title{margin-bottom: 0;} 
 .kotak-menu:hover > .overlay{position: absolute; width: 100%; height: 100%; background-color: #000; opacity: 0.5; top: 0; right: 0; transition: 0.6s;}
@@ -66,14 +67,12 @@ body{padding: 0; margin: 0;}
 .fullScreen{position: fixed; top: 0; left: 0; width: 100%; height: 100%;}
 .garis{border: 1px solid #000};
 
-#isi{width: 100%; height: auto; padding: 20px;}
+#isi{width: 100%; height: auto;}
 .isi-kotak{
 	width: 75%; 
-	margin-right: auto; 
-	margin-left: auto; 
+	margin: 20px auto 20px auto;
 	background-color: #fff;
 	box-shadow: 5px 5px 10px black;
-	margin-top: 20px;
 }
 .img-cover, .img-cover img{width: 100%;}
 .img-cover img{object-fit: cover;}
