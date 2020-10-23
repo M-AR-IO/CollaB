@@ -85,3 +85,30 @@ body{padding: 0; margin: 0;}
 #isi-konten-lain{padding: 20px}
 #isi-konten-lain .konten-lain{width: 100%; padding: 10px 0 10px 0;}
 .konten-lain .konten-lain-isi{display: inline-block; width: 250px; height: 150px; padding: 20px;}
+
+.kotak-identitas{padding: 20px;}
+.identitas{
+	width: 100%;
+	background-color: #ffffff99;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+}
+
+.identitas table{width: 100%}
+.identitas tr{background-color: #ffffffaa}
+.identitas tr:nth-child(even){background-color: #f5f5f5aa}
+.identitas tr:hover{background-color: #ffffff}
+.identitas td{
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.identitas td:first-child{
+	width: 25%;
+	background-color: #00000009;
+	cursor: default;
+}
+.identitas td:nth-child(2){
+	width: 75%;
+}
